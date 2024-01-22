@@ -1,0 +1,10 @@
+n = 'botafogo', 'corinthians', 'palmeiras', 'flamengo', 'internacional', 'fortaleza', 'vasco', 'grêmio', 'fluminense', 'ceará', 'chapecoense', 'avaí', 'goiás', 'bragantino', 'são paulo', 'santos', 'atletico mineiro', 'cruzeiro', 'ponte preta', 'criciúma'
+print (f'Segue os times do brasileirão em ordem de tabela: {n}')
+print ('-='*20)
+print (f'Os 5 primeiros times são {n[0:5]}')
+print ('-='*20)
+print (f'Os 4 últimos colocados são {n[-4:]}')
+print ('-='*20)
+print (f'Os times do brasileirão desse ano em ordem alfábetica são {sorted(n)}')
+print ('-='*20)
+print (f'O chapecoense está na posição {n.index ("chapecoense")+1}ª')
